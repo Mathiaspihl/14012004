@@ -11,7 +11,7 @@ USEFUL LINKS:
 /* @import url(https://fonts.bunny.net/css?family=alumni-sans:100,400,400i,700,700i|inter:100,200,300,400,500,600,700,800,900); */
 
 @import url(https://use.fontawesome.com/releases/v6.7.2/css/all.css);
-@import url(https://www.nerdfonts.com/assets/css/webfont.css);
+/* @import url(https://www.nerdfonts.com/assets/css/webfont.css); */
 
 fieldset {
     display: block;
@@ -55,7 +55,8 @@ html,body{
     border:none;                    /*!!!this was remarked*/
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    background-color: rgb(67, 72, 192);
+    /* background-color: rgb(67, 72, 192); */
+    background: linear-gradient(0deg, #2b00ff 0%, #ffffff 100%);
     /* background-image: url(https://21122002.xyz/images/always_you.jpg); */
     /* background-blend-mode: overlay; */
     /* opacity: 0.8; */
