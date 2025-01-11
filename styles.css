@@ -17,7 +17,7 @@ fieldset {
     display: block;
     border: 1px black solid;
     width: 80%;
-    background-color: rgba(210, 209, 245, 0.5); /* Black w/opacity/see-through */
+    background-color: rgb(206, 204, 247); /* Black w/opacity/see-through */
     margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 10%;
@@ -40,7 +40,7 @@ legend {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 17px;
-  background-color: rgba(255, 255, 255, 0.8); /* Black w/opacity/see-through */
+  background-color: rgba(255, 255, 255, 1); /* Black w/opacity/see-through */
 }
 
 :target{
@@ -55,7 +55,7 @@ html,body{
     border:none;                    /*!!!this was remarked*/
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    background-color: rgb(143, 158, 255);
+    background-color: rgb(67, 72, 192);
     /* background-image: url(https://21122002.xyz/images/always_you.jpg); */
     /* background-blend-mode: overlay; */
     /* opacity: 0.8; */
@@ -153,11 +153,13 @@ table {
   } 
 
   h1 {
+    font-size: 40px;
+    padding-left: 50px;
+    letter-spacing: -1px;
     text-align: left;
     text-transform: capitalize;
-    color: #2c0808;
-    /* text-decoration: underline; */
-    text-shadow: 2px 2px rgb(254, 254, 254);
+    color: #0044ff;
+    text-shadow: 2px 2px rgb(0, 0, 153);
     font-family: 'Inter', sans-serif;
   }
 
