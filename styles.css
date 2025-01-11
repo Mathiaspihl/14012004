@@ -55,10 +55,9 @@ html,body{
     border:none;                    /*!!!this was remarked*/
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    /* background-color: rgb(67, 72, 192); */
-    /* background: linear-gradient(0deg, #2b00ff 0%, #ffffff 100%); */
-    /* background: linear-gradient(0deg, #2b00ff 0%, #ffffff 100%) url(https://14012004.xyz/images/ballons.jpg) right top/cover no-repeat padding-box local; */
-    background-image: url(./images/ballons.jpg);
+    background-color: rgba(67, 72, 192, 1.0);
+    /* background: linear-gradient(0deg, #000000 0%, #ffffff 100%); */
+    background-image: url(./images/ballons.png);
     /* background-blend-mode: overlay; */
     /* opacity: 0.8; */
     background-position: left;
@@ -97,17 +96,9 @@ table {
   position: fixed;
   top: 0;
 
-}
-
-
-.rowmiddle {
-  width: 100%;
-  
-  vertical-align: top;
-
-  /* margin-top: 120px; */
 
 }
+
 
 .rowmiddle_new {
     height: 1%;
@@ -117,6 +108,8 @@ table {
     /* border-color: rgb(209, 4, 4); */
     
     vertical-align: top;
+
+    opacity: 1.0;
 
     /* margin-top: 120px; */
 
