@@ -17,7 +17,7 @@ fieldset {
     display: block;
     border: 1px black solid;
     width: 80%;
-    background-color: rgba(255, 255, 255, 0.5); /* Black w/opacity/see-through */
+    background-color: rgba(101, 96, 245, 0.5); /* Black w/opacity/see-through */
     margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 10%;
@@ -27,7 +27,7 @@ fieldset {
   display: block;
   border: 1px black dotted;
   width: 95%;
-  background-color: rgba(255, 255, 255, 0.3); /* Black w/opacity/see-through */
+  background-color: rgba(162, 148, 247, 0.3); /* Black w/opacity/see-through */
   margin-bottom: 5px;
   margin-left: 2%;
   margin-right: 2%;
