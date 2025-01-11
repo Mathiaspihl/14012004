@@ -17,7 +17,7 @@ fieldset {
     display: block;
     border: 1px black solid;
     width: 80%;
-    background-color: rgb(206, 204, 247); /* Black w/opacity/see-through */
+    background-color: rgba(206, 204, 247, 0.8); /* Black w/opacity/see-through */
     margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 10%;
@@ -56,14 +56,15 @@ html,body{
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     /* background-color: rgb(67, 72, 192); */
-    background: linear-gradient(0deg, #2b00ff 0%, #ffffff 100%);
+    /* background: linear-gradient(0deg, #2b00ff 0%, #ffffff 100%); */
+    /* background: linear-gradient(0deg, #2b00ff 0%, #ffffff 100%) url(https://14012004.xyz/images/ballons.jpg) right top/cover no-repeat padding-box local; */
     background-image: url(./images/ballons.jpg);
     /* background-blend-mode: overlay; */
     /* opacity: 0.8; */
-    /*background-position: left;*/
+    background-position: left;
     background-repeat: no-repeat;
-    /* background-size: 100% ; */
-    /* background-attachment: fixed; */
+    background-size: 100% ;
+    background-attachment: fixed;
  }
 
 table {
