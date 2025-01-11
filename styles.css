@@ -17,7 +17,7 @@ fieldset {
     display: block;
     border: 1px black solid;
     width: 80%;
-    background-color: rgba(101, 96, 245, 0.5); /* Black w/opacity/see-through */
+    background-color: rgba(210, 209, 245, 0.5); /* Black w/opacity/see-through */
     margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 10%;
@@ -27,7 +27,7 @@ fieldset {
   display: block;
   border: 1px black dotted;
   width: 95%;
-  background-color: rgba(162, 148, 247, 0.3); /* Black w/opacity/see-through */
+  background-color: rgba(197, 190, 245, 0.3); /* Black w/opacity/see-through */
   margin-bottom: 5px;
   margin-left: 2%;
   margin-right: 2%;
@@ -57,12 +57,12 @@ html,body{
     font-size: 14px;
     background-color: rgb(143, 158, 255);
     /* background-image: url(https://21122002.xyz/images/always_you.jpg); */
-    background-blend-mode: overlay;
-    opacity: 0.8;
+    /* background-blend-mode: overlay; */
+    /* opacity: 0.8; */
     /*background-position: left;*/
     background-repeat: no-repeat;
-    background-size: 100% ;
-    background-attachment: fixed;
+    /* background-size: 100% ; */
+    /* background-attachment: fixed; */
  }
 
 table {
@@ -97,26 +97,6 @@ table {
 
 }
 
-
-.rowheader {
-    width: 100%;
-    z-index: 999;
-    /* border-width:thin;
-    border-style:solid;
-    border-color: lightgray; */
-    height: 10%;
-    
-    background-position:left;
-    /* background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px; */
-    /*background-image: url(https://www.mathiaspihl.com/images/xmas_mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
-    /*background-image: url(./images/green-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
-
-    border-bottom-style:dotted;
-    border-bottom-width: thin;
-    border-bottom-color: darkgreen;
-    
-    
-}
 
 .rowmiddle {
   width: 100%;
